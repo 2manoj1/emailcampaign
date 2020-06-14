@@ -1,0 +1,18 @@
+{
+    "env": {
+        "node": true,
+        "es2020": true
+    },
+    "extends": ["plugin:prettier/recommended", "airbnb-base"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+        "prettier/prettier": "error",
+        "no-param-reassign": "off",
+        "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+        "quotes": ["error", "double", { "allowTemplateLiterals": true }]
+    }
+}

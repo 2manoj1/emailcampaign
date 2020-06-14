@@ -1,2 +1,21 @@
-# emailcampaign
-Email Campaign API / Client (Inprogress)
+# Email Campaign
+
+Email Campaign Mail API using sendgrid and node-cron
+
+## API
+
+cd server
+add .env file (Check .env-example)
+create mongodb database add url and password and db info in .env
+create sendgrid api key and add in .env file
+
+```
+npm i
+npm run dev
+```
+
+Test with postman
+
+## client
+
+working in-progress
