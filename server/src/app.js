@@ -9,7 +9,7 @@ import { logErrors, clientErrorHandler, errorHandler } from "./errorHandler";
 import connectDb from "./db/connection";
 import sendMailMorningTask from "./cronjobs/sendMails";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 // const NODE_ENV = process.env.NODE_ENV || "development";
 
 const app = express();
