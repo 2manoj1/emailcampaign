@@ -18,4 +18,10 @@ Test with postman
 
 ## client
 
-working in-progress
+```
+cd client
+npm i
+npm start
+```
+
+
